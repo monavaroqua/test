@@ -1,6 +1,8 @@
 'ues strict' 
-function sayHello() {
-    let name = 'mona'
-    alert ('hi ' + name);
+
+let student = {name: 'tariq', age: 25, isAttend: true, classed : ['101','102','201']
 }
-sayHello();
+console.log(student.age)
+document.write (student.name)
+
+
